@@ -7,16 +7,12 @@ publish = false
 
 [dependencies]
 solana-program = "=1.10.2"
+thiserror = "1.0.24"
+spl-token = {version ="3.2.0", features = ["no-entrypoint"]}
+arrayref = "0.3.6"
 
-[features]
-test-bpf = []
 
-[dev-dependencies]
-assert_matches = "1.4.0"
-solana-program-test = "=1.10.2"
-solana-sdk = "=1.10.2"
-solana-validator = "=1.10.2"
-solana-logger = "=1.10.2"
 
 [lib]
 crate-type = ["cdylib", "lib"]
+

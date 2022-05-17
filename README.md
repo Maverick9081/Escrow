@@ -13,3 +13,7 @@ $ cargo test
 $ cargo build-bpf
 $ cargo test-bpf
 ```
+
+### Current Deployed Address 
+
+2hwYS6mMWLwtLgMSfJv6ZdSzq7c4jLipcoym7Tu8yePS
